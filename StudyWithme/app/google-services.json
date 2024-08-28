@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770855089942",
+    "project_id": "studywithme-46c94",
+    "storage_bucket": "studywithme-46c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770855089942:android:f6de5b3f663da468a98237",
+        "android_client_info": {
+          "package_name": "com.example.studywithme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxt7GWv8sjcHlYXK0dAMO2-bNitznI78Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

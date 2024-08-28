@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10sp"
+    android:id="@+id/btnupdate"
+    android:padding="10dp"
+    android:clickable="true"
+    android:background="@drawable/rounded_list"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:id="@+id/txtcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textColor="#5A5142"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/txtwdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:singleLine="true"
+        android:text="2022/11/21"
+        android:textColor="#615439"
+        android:textSize="13sp"
+        android:layout_below="@id/txtcontent"/>
+
+
+    <TextView
+        android:id="@+id/btndel"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtcontent"
+        android:clickable="true"
+        android:gravity="bottom|right"
+        android:text="delete"
+        android:textSize="13sp"
+        android:textColor="#232220"
+        />
+
+
+</RelativeLayout>
